@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C. Ramalho</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/logo.png" alt="Richard hanrick" width="80" style="border-radius: 30px;" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Carlos Ramalho</h1>
+          <p class="title">Graduando em Eng. Civil</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:carlosramalho04@hotmail.com" class="contact-link">carlosramalho04@hotmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:+5588981727684" class="contact-link">+55 (88) 98172-7684</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Data de Nascimento</p>
+
+              <time datetime="1999-01-04">Jan 04, 1999</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Pau dos Ferros-RN/São Miguel-RN/Mauriti-CE</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/carlos.ramalho.752/" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/channel/UCWoKz67Bz_zk6f46FEaMRhA" class="social-link" target="_blank">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/5588981727684" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/carlos-ramallho/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/carlos.ramallho/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/carlos-ramallho" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Sobre</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Técnico em Desenho da Construção Civil, formado pela Escola
+            Estadual de Ensino Profissional Padre João Bosco de Lima, bacharel
+            em Ciência e Tecnologia (Universidade Federal Rural do Semi-Árido
+            - UFERSA) e Graduação em Engenharia Civil em andamento
+            (Universidade Federal Rural do Semi-Árido - UFERSA), atualmente
+            exercendo funções no setor de Infraestrutura Civil, no cargo de
+            Analista de Infraestrutura Civil 5G na empresa Brisanet Telecomunicações e Magnum - Serviços de engenharia e
+            arquitetura.
+            <a href="https://drive.google.com/drive/folders/1rOR5LeAbWH5QMmk0AF9f6vGEfeV5Ttsc?usp=sharing"
+              style="color: #fff;" target="_blank">
+              <p>Download do meu currículo</p>
+            </a>
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">O que estou fazendo?</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Serviços de Engenharia</h4>
+
+                <p class="service-item-text">
+                  Conjunto de processos de produção da construção civil que visa atingir um objetivo específico com
+                  prazos e custos definidos.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web developer</h4>
+
+                <p class="service-item-text">
+                  Conhecimentos básicos de programação.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Geoprocessamento</h4>
+
+                <p class="service-item-text">
+                  Projetos Geométricos/Infraestrutura civil (civil 3D).
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gerenciamento de projetos</h4>
+
+                <p class="service-item-text">
+                  Aplicação de conhecimentos, técnicas e habilidades para a execução de projetos de forma assertiva.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Comentários</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/network.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Damião Dantas (Gerente-Brisanet)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Você não enxerga problemas, você encontra soluções. Obrigado por ser um excelente profissional!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/network.png" alt="Jessica miller" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Joana Dark (Supervisora Infraestrutura FTThs)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    É nítida a sua dedicação e criatividade para entregar os melhores resultados. Obrigado por tanta
+                    contribuição, por vestir a camisa da empresa!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/network.png" alt="Emily evans" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Junior Nogueira (Expert Elite Autodesk)
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Seu trabalho tem feito toda a diferença durante este projeto. Obrigado por sua contribuição e
+                    dedicação!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Parceiros</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://www.instagram.com/magnum_projetos/" target="_blank">
+                <img src="./assets/images/logo-1-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" target="_blank">
+                <img src="./assets/images/logo-6-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/vidracariamauriti/" target="_blank">
+                <img src="./assets/images/logo-2-color.png" alt="client logo" />
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://api.whatsapp.com/send?phone=5584997080630" target="_blank">
+                <img src="./assets/images/logo-4-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://api.whatsapp.com/send?phone=5584981914938" target="_blank">
+                <img src="./assets/images/logo-5-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" target="_blank">
+                <img src="./assets/images/logo-3-color.png" alt="client logo" />
+              </a>
+            </li>
+
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                E.E.E.P Padre João Bosco de Lima
+              </h4>
+              <p class="timeline-text">
+                Técnico em Desenho da Construção Civil
+              </p>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+                O Técnico em Desenho da Construção Civil é responsável por criar desenhos detalhados usando software de
+                CAD, convertendo projetos arquitetônicos e de engenharia em plantas baixas e detalhes construtivos.
+                Colabora com arquitetos e engenheiros, solucionando problemas de design e garantindo a conformidade com
+                normas técnicas. Sua habilidade em interpretar documentos técnicos e comunicar visualmente contribui
+                para o sucesso dos projetos de construção.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Universidade Federal Rural do Semi-Árido (UFERSA)
+              </h4>
+              <p class="timeline-text">Bacharelado em Ciência e Tecnologia</p>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+                Um Bacharelado em Ciência e Tecnologia é um programa interdisciplinar que une conhecimentos científicos
+                e tecnológicos para capacitar os graduados a resolver problemas complexos, utilizando princípios
+                científicos e ferramentas tecnológicas.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Universidade Federal Rural do Semi-Árido (UFERSA)
+              </h4>
+              <p class="timeline-text">Bacharelado em Engenharia Civil</p>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Planejar, organizar, executar e controlar projetos na área da
+                construção civil, realizar investigações e levantamentos
+                técnicos, definir metodolo‑ gia de execução, desenvolver
+                estudos ambientais, revisar e aprovar projetos, especificar
+                equipamentos, materiais e serviços, dentre outras funções.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Analista de Infraestrutura Civil- 5G - Brisanet Telecomunicações
+              </h4>
+
+              <span>11/2022 — Present</span>
+
+              <p class="timeline-text">
+                O Analista de Infraestrutura Civil é encarregado de avaliar, planejar e supervisionar projetos de
+                infraestrutura, como estradas e pontes. Isso envolve análises técnicas, cooperação com equipes
+                multidisciplinares e garantia de conformidade com regulamentos. Sua expertise contribui para a
+                eficiência e segurança desses empreendimentos.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Diretor de projetos - Magnum Projetos
+              </h4>
+
+              <span>2016 ‑ 2023 - Exercendo funções atualmente</span>
+
+              <p class="timeline-text">
+                Desenvolvimento de projetos arquitetônicos no AutoCAD ( Planta
+                baixa, cortes, fachadas, detalhamento, planta de layout,
+                planta de coberta, planta de locação, entre outros),
+                Desenvolvimento de projetos em 3D com auxilio do programa
+                Sketchup, renderização com o uso do Vray (deixando o projeto
+                mais realista), dimensionamento de pontos elétricos e Visitas
+                em obras.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Projetista FTTh - Brisanet Telecomunicações
+              </h4>
+
+              <span>2020 — 11/2022</span>
+
+              <p class="timeline-text">
+                Topologias de projeto, georreferenciamento, vetorização de
+                quadras, nomenclatura de ruas, posteação, marcação de
+                atendimento, Levantamento de Condomínios, marcação de
+                células, posicionamento das Caixas, desenho dos cabos,
+                quantificação das fibras, exportar kmz, nomenclatura e Layers,
+                relatório De material, esquema de fusões, concessionária,
+                exportar pontos do pdf para o Google Eath e Autocad, orçamento
+                de projeto, estruturação de projeto, gerenciamento de projeto, dentre outros.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Estágio UFERSA - Infraestrutura FTTh - Brisanet Telecomunicações
+              </h4>
+
+              <span>07/2022 — 11/2022</span>
+
+              <p class="timeline-text">
+                Responsável por analisar e desenvolver projetos FTTh, elaborar relatórios, analisar dados, interpretar
+                plantas de redes ópticas e buscar soluções técnicas para problemas.
+              </p>
+            </li>
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Projetista Cadista (Estágio) - RC MAS CONSTRUÇÕES LTDA
+              </h4>
+
+              <span>Maio 2019 ‑ Setembro 2019 (5 Meses) </span>
+
+              <p class="timeline-text">
+                Construção, Administração, Transporte, Locação de Automóveis,
+                Locação Mão de Obra, Urbanização, Empreiteiro M.O Agrícola,
+                Representação Comercial, Engenharia e Arquitetura, Segurança
+                do trabalho, Testes e Análises Técnicas
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Projetista (Estágio) - Magna Engenharia LTDA
+              </h4>
+
+              <span>Junho 2016 ‑ Novembro 2016 –(6 Meses)</span>
+
+              <p class="timeline-text">
+                Plotagem, classificação e correção de projetos no programa
+                AutoCAD, representação de barragens, vertedouro, diques,
+                canais, e topografias no Sketchup, visitas técnicas sobe
+                supervisionamento da Magna Engenharia LTDA.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Cursos ministrados</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                SOFTWARE FTOOL E AUTOCAD EM ANÁLISES DE PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS
+                DISCENTES DA UFERSA- CAMPUS PAU DOS FERROS (2020.1)
+              </h4>
+
+              <span>2020.1 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                SOFTWARE FTOOL E AUTOCAD EM ANÁLISES DE PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS
+                DISCENTES DA UFERSA- CAMPUS PAU DOS FERROS (2020.2)
+              </h4>
+
+              <span>2020.2 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                USO DE FERRAMENTAS DE ANÁLISE EM PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS DISCENTES DA
+                UFERSA- CAMPUS PAU DOS FERROS (2021.1)
+              </h4>
+
+              <span>2021.1 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                USO DE FERRAMENTAS DE ANÁLISE EM PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS DISCENTES DA
+                UFERSA- CAMPUS PAU DOS FERROS (2021.2)
+              </h4>
+
+              <span>2021.2 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                USO DE FERRAMENTAS DE ANÁLISE EM PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS DISCENTES DA
+                UFERSA- CAMPUS PAU DOS FERROS (2022.1)
+              </h4>
+
+              <span>2022.1 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                USO DE FERRAMENTAS DE ANÁLISE EM PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS DISCENTES DA
+                UFERSA- CAMPUS PAU DOS FERROS (2022.2)
+              </h4>
+
+              <span>2022.2 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                2022 - CONSTRUINDO PONTES E QUEBRANDO A RESISTÊNCIA: A INCLUSÃO DA ESCOLA NOS ESPAÇOS UNIVERSITÁRIOS -
+                IV EDIÇÃO.
+              </h4>
+
+              <span>2022.2 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                ELEITO REPRESENTANTE DA MORADIA ESTUDANTIL DA UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO
+              </h4>
+
+              <span>2022.2 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Residência - Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                USO DE FERRAMENTAS DE ANÁLISE EM PROJETOS ESTRUTURAIS NO ENSINO E APRENDIZAGEM VOLTADOS AOS DISCENTES DA
+                UFERSA- CAMPUS PAU DOS FERROS (2023.1)
+              </h4>
+
+              <span>2023.1 — Universidade Federal Rural do Semi-Árido</span>
+
+              <p class="timeline-text">
+                Curso voltado a capacitação de discentes da Universidade Federal Rural do Semi-árido.
+              </p>
+            </li>
+
+
+          </ol>
+        </section>
+
+
+
+
+        <section class="skill">
+          <h3 class="h3 skills-title">skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AutoCAD</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AutoCAD Civil 3D</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Geoprocessamento</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AutoCAD Map 3D</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">REVIT</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">QGIS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Google Docs</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">ArqGIS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SketchUP</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Canva</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Látex</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Appsheat</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">InfraWorks</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Lumine</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hydros</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Smath</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Office</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Google Earth</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Gestão de Projetos</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
+
+
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Magnum</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Gestão</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicativos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AutoCAD</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Magnum</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Gestão</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplicativos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AutoCAD</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum1.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial Fachada</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum2.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum3.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Escritório</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum4.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum5.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum6.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum7.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum8.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Escritório de advocacia</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum9.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="magnum">
+              <a href="https://www.instagram.com/magnum.projetos/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/magnum10.png" alt="magnum" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto Residencial 3D</h3>
+
+                <p class="project-category">Magnum Projetos</p>
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="autocad">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto1.png" alt="5g" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto planialtimétrico de torre 5G</h3>
+
+                <p class="project-category">AutoCAD Civil 3D</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="gestão">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto2.png" alt="gestão" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Dashboard de gestão de projetos 5G</h3>
+
+                <p class="project-category">Gestão de Projetos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="autocad">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto3.png" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Drenagem</h3>
+
+                <p class="project-category">AutoCAD Civil 3D</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="autocad">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto4.png" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Projeto planialtimétrico </h3>
+
+                <p class="project-category">AutoCAD Civil 3D</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="autocad">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto5.jpg" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Identificação das Alternativas de energéticas- arquipélago de Fernando de
+                  Noronha.</h3>
+
+                <p class="project-category">AutoCAD Civil 3D</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="autocad">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto6.jpg" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Processamento e análise. Capri, Nápoles, Itália.</h3>
+
+                <p class="project-category">AutoCAD Civil 3D</p>
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="aplicativos">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projeto7.png" alt="task manager" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Aplicativo de Gestão 5G</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://youtu.be/EAPLRq3LATo" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-01.png" alt="Design conferences in 2022" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AutoCAD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Gerando áreas automaticamente
+                  </h3>
+
+                  <p class="blog-text">
+                    Utilizando plugin para gerar áreas automáticas no AutoCAD.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=i7XdCeqar1M" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-02.png" alt="Best fonts every designer" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AutoCAD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Georreferenciando arquivo no autoCAD
+                  </h3>
+
+                  <p class="blog-text">
+                    Ensinando processo de georreferenciamento no software AutoCAD.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/-INgYWNKUFQ" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-03.png" alt="Design digest #80" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AutoCAD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Renomeando vários layers no AutoCAD</h3>
+
+                  <p class="blog-text">
+                    Processo para renomear vários layers no AutoCAD.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/yCTMER7ii-o" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-04.png" alt="UI interactions of the week" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Ftool / AutoCAD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Curso Ftool - Universidade Federal Rural do Semi-árido
+                  </h3>
+
+                  <p class="blog-text">
+                    Curso ministrado para discentes da Ufersa, campus Pau dos Ferros.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/p-voUZaJNPg" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-05.png" alt="The forgotten art of spacing" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">InfraWorks / Civil 3D</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Projeto de Drenagem Urbana
+                  </h3>
+
+                  <p class="blog-text">
+                    Representação 3D de projeto de drenagem Urbana.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=oEg4cDVzA40" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-06.png" alt="Design digest #79" loading="lazy" />
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AutoCAD</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Curso de apresentação de Plugin CAD EARTH</h3>
+
+                  <p class="blog-text">
+                    Apresentação básica de plugin CAD EARTH, no processamento de curvas de nível, georreferenciamento,
+                    processamento de imagens, dentre outras tarefas.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.50625718042!2d-38.50681137656234!3d-6.20577441106634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a4ae2fdc5318ad%3A0x1a2e86a420ca538e!2sS%C3%A3o%20Miguel%2C%20RN%2C%2059920-000!5e0!3m2!1spt-BR!2sbr!4v1671460388927!5m2!1spt-BR!2sbr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Formulário para Contato</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensagem</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
